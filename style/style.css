@@ -1,0 +1,154 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+.contenedor {
+  max-width: 1280px;
+}
+
+header ul {
+  display: flex;
+}
+
+ul li,
+li a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #280400;
+}
+
+header p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#encabezado {
+  background: url("/imagenWeb/encabezado.jpg");
+  background-size: cover;
+  padding: 270px 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Lora", serif;
+  color: #280400;
+  margin: 10px 200px;
+}
+
+#encabezado p {
+  width: 40%;
+  color: #666;
+  margin: 10px 200px;
+  margin-bottom: 50px;
+}
+
+#encabezado a,
+#contact .izquierda a {
+  text-decoration: none;
+  color: #280400;
+  border: 2px solid #280400;
+  padding: 20px 40px 20px 40px;
+  margin: 10px 200px;
+  transition: 0.4s;
+}
+
+#encabezado a:hover,
+#contact a:hover {
+  background: #280400;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.columnas {
+  display: flex;
+}
+
+.columna p {
+  margin: 10px 100px 10px 0px;
+  font-family: "Lora", serif;
+  color: #666;
+}
+
+.columna img {
+  width: 80%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Lora", serif;
+}
+
+.columna1 {
+  color: #280400;
+  margin: 0px 50px 0px 100px;
+  font-family: "Lora", serif;
+}
+
+.mover_img {
+  display: flex;
+  justify-content: center;
+}
+
+.mover_img img {
+  margin: auto 20px;
+  width: 200px;
+  height: 250px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  background: url("/imagenWeb/fondouva.png");
+  background-size: cover;
+  padding: 70px 0;
+}
+
+#contact .izquierda {
+  width: 40%;
+}
+
+#contact h2 {
+  font-size: 80px;
+  font-family: "Lora", serif;
+  color: #280400;
+  margin-bottom: 30px;
+}
+#contact .izquierda p {
+  font-size: 14px;
+  counter-reset: #666;
+  margin-top: 40px;
+}
+
+#contact .derecho {
+  background: #280400;
+  color: #fff;
+  padding: 80px 30px;
+}
+.datos {
+  font-size: 13px;
+}
+
+.derecho h3 {
+  font-size: 40px;
+}
+
+.derecho a {
+  color: #fff;
+  border: 1px solid rgba(232, 226, 215, 0.2);
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+.derecho a:hover {
+  border: 1px solid #fff;
+}
